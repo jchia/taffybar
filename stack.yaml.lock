@@ -3,10 +3,35 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: gi-cairo-connector-0.1.1@sha256:621d03434a0d6e3d5e68178f5890f2a7142818fcf4c6a5b15079f6b67955407d,1213
+    pantry-tree:
+      sha256: d10b7d77b0a00090223528e1241a3568e9d12d3378d1719935a53387dd080fa7
+      size: 238
+  original:
+    hackage: gi-cairo-connector-0.1.1
+- completed:
+    hackage: gtk-sni-tray-0.1.8.1@sha256:7d44e532a79d841f669123491f9b5f79d9c7729b07c7925d774c29e834dc4bbe,2132
+    pantry-tree:
+      sha256: fe7a6104607288a4231fd630af49fe606df2d8acd873d3b28ac4261a1f676975
+      size: 456
+  original:
+    hackage: gtk-sni-tray-0.1.8.1
+- completed:
+    name: xdg-desktop-entry
+    pantry-tree:
+      sha256: 4e986bee96e57b076d250d55ed05267327246960f2ede42f3b54b902926d59d8
+      size: 345
+    sha256: 35c4e51f79fce1c2be4154313ff26daddae5da9363cfa2a1b9243702c8e2bffd
+    size: 4557
+    url: https://github.com/jchia/xdg-desktop-entry/archive/df3b41d9f3c5b461b94ccb325bcbf4b049560d92.tar.gz
+    version: 0.1.1.1
+  original:
+    url: https://github.com/jchia/xdg-desktop-entry/archive/df3b41d9f3c5b461b94ccb325bcbf4b049560d92.tar.gz
 snapshots:
 - completed:
-    size: 520328
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2020/4/30.yaml
-    sha256: c3da7e1ed406532c76e4c5251f5d4d1de2d1c97a35dde0858da4f24b6ebe46df
-  original: nightly-2020-04-30
+    sha256: 56ef9e03804cb4827866e762dc9752eeb392adda8f4811690da110dd9a165b9e
+    size: 714105
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/8.yaml
+  original: lts-22.8

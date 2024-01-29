@@ -1,8 +1,14 @@
 packages:
 - '.'
 extra-deps:
+- gi-cairo-connector-0.1.1
+- gtk-sni-tray-0.1.8.1
+- github: jchia/xdg-desktop-entry
+  commit: df3b41d9f3c5b461b94ccb325bcbf4b049560d92
 
-resolver: nightly-2023-05-30
+resolver: lts-22.8
+
+allow-newer: true
 
 nix:
   packages:
